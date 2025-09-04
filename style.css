@@ -1,0 +1,44 @@
+:root {
+    --color-darkblue: #16425B;
+    --color-platinum: #D9DCD6;
+    --color-skyblue: #81C3D7;
+    --color-mediumBlue: #2F6690;
+}
+
+h1{
+
+}
+
+h2 {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--color-platinum);
+    font-size: 35px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    padding-left: 40px;
+    padding-block: 6px;
+    color: var(--color-platinum);
+}
+
+.video-container {
+    width: 100vw;
+    height: 840px;
+    overflow: hidden;
+    background-color: var(--color-darkblue);
+}
+
+.video-container video {
+    position: relative;
+    top: -50vw;
+    
+    width: 100%;
+}
