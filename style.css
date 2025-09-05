@@ -5,8 +5,18 @@
     --color-mediumBlue: #2F6690;
 }
 
-h1{
+body {
+    background-color: var(--color-mediumBlue);
+    
+}
 
+h1{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--color-platinum);
+    font-size: 250px;
 }
 
 h2 {
@@ -29,6 +39,12 @@ header {
     color: var(--color-platinum);
 }
 
+#title {
+    position: absolute;
+    top: 400px;
+    left: 40px;
+}
+
 .video-container {
     width: 100vw;
     height: 840px;
@@ -39,6 +55,15 @@ header {
 .video-container video {
     position: relative;
     top: -50vw;
-    
     width: 100%;
+}
+
+#video-overlay {
+    position: absolute;
+    top: 0;
+    width: inherit;
+    height: inherit;
+
+    background-color: var(--color-darkblue);
+    opacity: 40%;
 }
