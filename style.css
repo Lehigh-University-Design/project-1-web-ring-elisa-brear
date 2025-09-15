@@ -7,7 +7,7 @@
 
 body {
     background-color: var(--color-platinum);
-    
+    margin: 0;
 }
 
 h1{
@@ -41,7 +41,7 @@ header {
 
 #title {
     position: absolute;
-    top: 400px;
+    top: 380px;
     left: 40px;
 }
 
@@ -61,8 +61,9 @@ header {
 #video-overlay {
     position: absolute;
     top: 0;
+    left: 0;
     width: inherit;
-    height: inherit;
+    height:
 
     background-color: var(--color-darkblue);
     opacity: 40%;
@@ -74,15 +75,17 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
+
 }
 
 .post {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    width: 80%;
+    width: 85%;
     min-height: 400px;
-    gap: 40px;
+    gap: 100px;
 
     h2 {
         color: var(--color-darkblue);
@@ -94,9 +97,10 @@ header {
     }
 
     .image-container {
-
-        img {
+        img { 
             width: 100%;
+            object-fit: contain;
+            max-height: 500px;
         }
     }
 }
@@ -105,4 +109,10 @@ header {
     height: 2px;
     width: 50px;
     background-color: var(--color-darkblue);
+}
+
+#skiier {
+    scale: 90%;
+    position: absolute; 
+    
 }
