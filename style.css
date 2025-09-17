@@ -63,7 +63,7 @@ header {
     top: 0;
     left: 0;
     width: inherit;
-    height:
+    height: 840px;
 
     background-color: var(--color-darkblue);
     opacity: 40%;
